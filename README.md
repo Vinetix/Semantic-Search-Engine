@@ -59,7 +59,9 @@ We evaluated the system on a held-out subset of MS MARCO queries using **MRR@10*
 ### Install dependencies
 pip install torch pandas numpy sentence-transformers faiss-cpu rank_bm25 datasets
 
+### Run the Notebook
+The entire pipeline is contained within semantic_search_engine.ipynb. You can run it directly in Jupyter or upload it to Google Colab.
+
 ### Clone the Repository
 ```bash
 git clone https://github.com/Vinetix/Semantic-Search-Engine.git
-cd ms-marco-neural-search
